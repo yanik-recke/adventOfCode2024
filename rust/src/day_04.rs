@@ -2,7 +2,7 @@ use std::collections::HashSet;
 use std::io::{BufRead, BufReader};
 
 fn parse() -> Vec<Vec<char>> {
-    BufReader::new(include_str!("input").as_bytes())
+    BufReader::new(include_str!("../inputs/input").as_bytes())
         .lines()
         .map(|line| line.expect("Failed to read line").chars().collect())
         .collect()
