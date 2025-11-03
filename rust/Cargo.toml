@@ -5,3 +5,5 @@ edition = "2024"
 
 [dependencies]
 smtlib = "0.3.0"
+derivative = "2.2"
+
